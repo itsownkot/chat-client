@@ -20,6 +20,7 @@ const Main = () => {
           autoComplete="off"
           className="bg-zinc-800 rounded-md text-zinc-300 outline-none px-3 py-1"
           onChange={handleChange}
+          placeholder="Name"
         />
         <input
           type="text"
@@ -29,6 +30,7 @@ const Main = () => {
           autoComplete="off"
           className="bg-zinc-800 rounded-md text-zinc-300 outline-none px-3 py-1"
           onChange={handleChange}
+          placeholder="Room"
         />
         <Link
           className="bg-blue-700 hover:bg-blue-600 transition rounded-md text-white p-1 flex justify-center items-center"
