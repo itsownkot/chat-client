@@ -29,7 +29,6 @@ const Chat = () => {
         setMessages((prev) => [...prev, data]);
       });
       socket.on("room", ({ data }) => {
-        console.log(data.users);
         setRoomCount(data.users.length);
       });
       firstRend.current = false;
